@@ -106,7 +106,7 @@ class ClinicServiceTests {
 		int found = owners.size();
 
 		Owner owner = new Owner();
-		owner.setFirstName("Sam");
+		owner.setFirstName("Sammy");
 		owner.setLastName("Schultz");
 		owner.setAddress("4, Evans Street");
 		owner.setCity("Wollongong");
