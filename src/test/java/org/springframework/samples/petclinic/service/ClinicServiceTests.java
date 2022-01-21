@@ -106,7 +106,7 @@ class ClinicServiceTests {
 		int found = owners.size();
 
 		Owner owner = new Owner();
-		owner.setFirstName("Sammy");
+		owner.setFirstName("Sam");
 		owner.setLastName("Schultz");
 		owner.setAddress("4, Evans Street");
 		owner.setCity("Wollongong");
@@ -223,4 +223,5 @@ class ClinicServiceTests {
 		assertThat(visitArr[0].getDate()).isNotNull();
 		assertThat(visitArr[0].getPetId()).isEqualTo(7);
 	}
+
 }
