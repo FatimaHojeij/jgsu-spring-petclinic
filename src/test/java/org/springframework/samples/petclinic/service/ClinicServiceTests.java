@@ -223,10 +223,4 @@ class ClinicServiceTests {
 		assertThat(visitArr[0].getDate()).isNotNull();
 		assertThat(visitArr[0].getPetId()).isEqualTo(7);
 	}
-
-	@Test
-	void shouldFindVisitsByPetId() throws Exception {
-		assertThat(7).isEqualTo(7);
-	}
-
 }
